@@ -1,17 +1,10 @@
 body {
     font-family: Arial, sans-serif;
 }
-table {
-    margin: 0 auto;        
-    border: none;          
-    font-size: 18px;       
-    width: 90%;
-}
 .container {
-    width: 600px;
-    margin: 20px auto;
+    width: 880px;
+    margin: auto;
     border: 2px solid #666;
-    padding: 10px;
     background-color: #99CCFF;
 }
 
@@ -32,10 +25,13 @@ h2 {
 }
 .line {
     margin: 0;
-    border: 5px solid black;
+    border: 3px solid black;
 }
 table {
     width: 100%;
+}
+hr {
+    border: 1px solid gray;
 }
 td {
     padding: 5px;
@@ -51,12 +47,6 @@ td {
 textarea {
     height: 60px;
 }
-
-.buttons {
-    text-align: center;
-    margin-top: 10px;
-}
-
 .buttons input {
     padding: 5px 15px;
     margin: 0 10px;
@@ -64,7 +54,7 @@ textarea {
 .column {
     display: inline-block;
     vertical-align: top;
-    margin-right: 40px;
+    width: 150px;
 }
 select[name="product"] {
     width: auto;           
@@ -72,9 +62,7 @@ select[name="product"] {
     padding: 4px;
 }
 
-input[name="first_name"],
-input[name="last_name"] {
-    width: 120px;          
-    display: inline-block; 
-    margin-right: 10px;
+input[name="address1"],
+input[name="address2"] {
+    width: 200px;          
 }
