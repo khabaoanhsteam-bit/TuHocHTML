@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    margin: 0 auto;        
+    border: none;          
+    font-size: 18px;       
+    width: 90%;
+}
+.container {
+    width: 600px;
+    margin: 20px auto;
+    border: 2px solid #666;
+    padding: 10px;
+    background-color: #99CCFF;
+}
+
+h2 {
+    text-align: center;
+}
+
+.Logo {
+    background-color: cyan;
+    width: 290px;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+.Text-Logo {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.line {
+    margin: 0;
+    border: 5px solid black;
+}
+table {
+    width: 100%;
+}
+td {
+    padding: 5px;
+}
+.normal {
+    width: 150px;
+}
+
+.short {
+    width: 50px;
+}
+
+textarea {
+    height: 60px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.buttons input {
+    padding: 5px 15px;
+    margin: 0 10px;
+}
+.column {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+}
+select[name="product"] {
+    width: auto;           
+    min-width: 120px;      
+    padding: 4px;
+}
+
+input[name="first_name"],
+input[name="last_name"] {
+    width: 120px;          
+    display: inline-block; 
+    margin-right: 10px;
+}
